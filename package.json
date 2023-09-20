@@ -1,0 +1,58 @@
+{
+  "name": "glinweb",
+  "version": "1.0.0",
+  "description": "The First Open-Source GLIN CSS Component Framework",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "commit": "git-cz",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WEBANDESIGNS/glinweb.git"
+  },
+  "keywords": [
+    "GLIN",
+    "Framework"
+  ],
+  "author": "Gagan Deep Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WEBANDESIGNS/glinweb/issues"
+  },
+  "homepage": "https://github.com/WEBANDESIGNS/glinweb#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "add": "^2.0.6",
+    "eslint": "^8.0.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "git-cz": "^4.9.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3",
+    "yarn": "^1.22.19"
+  },
+  "dependencies": {
+    "eslint-plugin-prettier": "^5.0.0"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
+}

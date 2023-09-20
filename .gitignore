@@ -1,0 +1,19 @@
+# GLINWEB Gitignore Template
+
+
+
+#compiled Output
+/dist
+/tmp
+/build
+
+#dependencies
+/node_modules
+
+#Visual Studio Code
+.vscode/*
+.project
+
+#misc
+yarn-error.log
+npm-debug.log
