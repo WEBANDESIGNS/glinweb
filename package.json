@@ -47,7 +47,8 @@
     "yarn": "^1.22.19"
   },
   "dependencies": {
-    "eslint-plugin-prettier": "^5.0.0"
+    "eslint-plugin-prettier": "^5.0.0",
+    "sass": "^1.67.0"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [

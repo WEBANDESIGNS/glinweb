@@ -1,7 +1,6 @@
 {
   "singleQuote": true,
-  "useTabs": false,
-  "tabWidth": 2,
+  "doubleQuote": true,
   "overrides": [
     {
       "files": "*.yaml",
